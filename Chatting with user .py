@@ -17,9 +17,9 @@ if (c==Football):
     print'Wrong answer:('
     print'This interogation is over and it was nice talking to you, bye'
 elif (d==Volleyball):
-   print"\n\nAs you like volleyball i'am going to ask you some questions in valleyball"
-  print"\n\tQuestion :What is the gamepoint in a proper volleyball match (Choose from te hints)\nHints:10 or 15 or 20 or 25: "
-  d=str(input('Answer:'))
+   print"\n\nAs you like volleyball i'am going to ask you a questions in valleyball"
+   print"\n\tQuestion :What is the gamepoint in a proper volleyball match (Choose from the hints)\nHints:10 or 15 or 20 or 25:"
+   d=str(input('Answer:'))
   if (d<25):
     print'Wrong answer:('
     print'It was nice tlking to you, bye'
@@ -50,4 +50,3 @@ else:
   print'\n\t\tPlease run the program again without caps and check for spelling'
   
   
-    
