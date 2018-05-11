@@ -1,0 +1,11 @@
+a=int(input("Enter the value:"))
+b=int(input("Enter the value:"))
+d=a
+e=0
+c=0
+while(d>0):
+  x=d%10
+  if(x==b):
+    e=e+1
+  d=d/10
+print (e)
