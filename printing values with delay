@@ -1,0 +1,5 @@
+import time
+x=0
+for x in"12345678910":
+  print ("..",x) 
+  time.sleep(1)
